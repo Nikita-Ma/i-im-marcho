@@ -1,12 +1,29 @@
+
+html, body {
+  height: 100%; // ?From footer sticky in the end pages
+}
+
 body {
   color: $default;
   font-size: 16px;
   //font-size: 26px;
-  @extend %quicksand-500
+  @extend %quicksand-500;
+  display: flex; // ?From footer sticky in the end pages
+  flex-direction: column; // ?From footer sticky in the end pages
+
+}
+
+main {
+  flex-grow: 1; // ?From footer sticky in the end pages
 }
 
 a {
   text-decoration: none;
+}
+
+a > svg {
+  width: 16px;
+  height: 16px;
 }
 
 .container {
