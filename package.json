@@ -10,6 +10,7 @@
   "type": "commonjs",
   "license": "ISC",
   "devDependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "browser-sync": "^2.27.11",
     "del": "^7.0.0",
     "gulp": "^4.0.2",
