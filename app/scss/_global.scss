@@ -33,6 +33,7 @@ a > svg {
 }
 
 .title {
+  text-transform: uppercase;
   text-align: center;
   @extend %roboto-700;
   font-size: 48px;
