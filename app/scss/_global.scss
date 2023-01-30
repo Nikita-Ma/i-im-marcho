@@ -85,6 +85,7 @@ a > svg {
 
     &:last-child {
       color: $accent;
+      padding-right:  0;
 
       &::after {
         display: none; // ? interst. hide el.
