@@ -501,6 +501,10 @@
     display: inline-block;
     @extend %roboto-400;
   }
+
+  &__text {
+    margin-bottom: 25px;
+  }
 }
 
 footer {
