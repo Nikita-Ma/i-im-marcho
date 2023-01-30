@@ -85,7 +85,7 @@ a > svg {
 
     &:last-child {
       color: $accent;
-      padding-right:  0;
+      padding-right: 0;
 
       &::after {
         display: none; // ? interst. hide el.
@@ -95,5 +95,9 @@ a > svg {
 
   &__link {
     color: inherit;
+  }
+
+  .header--404-page {
+    background-color: $bg;
   }
 }
