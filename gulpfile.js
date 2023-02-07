@@ -49,7 +49,7 @@ function images() {
         }), imagemin.optipng({optimizationLevel: 5}), imagemin.svgo({
             plugins: [{removeViewBox: true}, {cleanupIDs: false}]
         })]))
-        .pipe(dest('data/images'))
+        .pipe(dest('dist/images'))
 }
 
 
